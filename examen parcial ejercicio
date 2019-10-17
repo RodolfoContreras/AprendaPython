@@ -1,0 +1,34 @@
+Codificar en Python un script que presente en la terminal un menú con las siguientes opciones:
+
+1. Registrar un vendedor
+2. Registrar una venta
+3. Consultar el listado de vendedores
+4. Reportar las ventas capturadas
+5. Salir del sistema
+
+El script deberá atender la solicitud del usuario en cuanto a la opción indicada y solamente deberá
+concluir cuando el usuario seleccione la opción 5.
+
+Se hacen las siguientes observaciones respecto a cada una de las opciones del menú:
+
+1. Los datos que se solicitarán del vendedor serán solamente: Clave, Apellidos y Nombre
+(Almacenamiento correcto sin perder datos de los vendedores ya registrados anteriormente
+y sin permitir Claves de vendedores duplicadas.
+
+2. Se deberá indicar una clave de vendedor que ya haya sido registrada (El programa lo validará
+conforme a los vendedores ya registrados, no el usuario) y se registrará el monto total de la
+venta). A la venta se le asignará un folio y se almacenarán los siguientes datos: Folio,
+ClaveVendedor y Monto (Almacenamiento correcto sin perder datos de las ventas ya
+registrados anteriormente).
+
+3. Desplegará en forma de listado todos los vendedores registrados hasta ese momento.
+
+4. Desplegará en forma de listado todas las ventas registradas hasta ese momento y al final del listado un gran total que acumule todos los montos de
+las ventas.
+
+Requerimientos generales:
+No es necesario almacenar permanentemente los datos, con estructuras en memoria será
+suficiente.
+Se debe validar que la opción del menú introducida por el usuario sea solamente una de las
+ofrecidas, de lo contrario no aceptarla y mantenerse en el menú.
+Después de atender cada requerimiento, se debe limpiar la terminal.
